@@ -1,0 +1,15 @@
+[project]
+name = "take-home-test-ppa"
+version = "0.1.0"
+description = "Take Home Test PPA"
+readme = "README.md"
+authors = [
+    { name = "Fahmi Noor Fiqri", email = "fahmi@kodesiana.com" }
+]
+
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk>=2.12.0",
+    "sqlalchemy>=2,<3",
+    "ruff>=0.17.1",
+]
